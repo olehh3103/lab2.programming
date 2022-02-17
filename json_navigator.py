@@ -63,7 +63,10 @@ please, write 'back'")
             print("u are not deep enough to go back")
         elif path != "" and part == "dir":
             if isinstance(all_res[-1], list):
-                print(f"u can choise from index from 0 to {len(all_res[-1]) - 1}")
+                if len(all_res[-1]) == 0:
+                    print(f"u can choise index 0")
+                else:
+                    print(f"u can choise index from 0 to {len(all_res[-1]) - 1}")
                 while True:
                     choise = int(input(">>> "))
                     if choise == "bye":
