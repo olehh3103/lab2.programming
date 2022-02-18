@@ -7,3 +7,5 @@
 * twurl.py
 * templates
 * oauth.py
+# hidden.py is not here.
+# pls, use ur hidden.py with API keys
