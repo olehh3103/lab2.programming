@@ -21,6 +21,9 @@ app = Flask(__name__)
 
 @app.route("/", methods=["POST", "GET"])
 def find_a_location():
+    """
+    html function which has two methods: "POST", "GET"
+    """
     if request.method == "GET":
         return render_template("login.html")
     else:
@@ -30,6 +33,10 @@ def find_a_location():
 
 @app.route("/<usr>")
 def user(usr):
+    """
+    main function which works with twiter user nickname
+    and find location from JSON file.
+    """
     try:
         # a = input('Enter Twitter Account:')
         url = twurl.augment(TWITTER_URL,
