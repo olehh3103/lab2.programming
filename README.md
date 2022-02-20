@@ -1,7 +1,9 @@
-# lab2.programming
-## 2 task:
-* json_navigator.py
-## 3 task:
+# 2 task:
+## json_navigator.py
+### The purpose of this program is to quickly and conveniently parse a file
+what commands the program has:
+
+# 3 task:
 * hidden.py
 * twitter2.py
 * twurl.py
