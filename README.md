@@ -14,12 +14,20 @@ dir withhout path = write 'path', because i don't have date to work with
 ![image](https://user-images.githubusercontent.com/92575053/154833203-6529f518-0882-4fd0-9106-8471e4494d34.png)
 ***
 # 3 task:
+## The purpose of this program is to quickly and easily parse the file to create a web application in which the user enters the name of his friend on Twitter, and as a result the user receives a map with the people to whom this friend is subscribed
 * hidden.py
 * twitter2.py
 * twurl.py
 * templates
 * oauth.py
-## The purpose of this program is to quickly and easily parse the file to create a web application in which the user enters the name of his friend on Twitter, and as a result the user receives a map with the people to whom this friend is subscribed
+## main file is twitter2.py
+what functions the program has:
+* ![image](https://user-images.githubusercontent.com/92575053/154833676-b6cbcea7-9271-447e-8148-32600f325668.png)
+* ![image](https://user-images.githubusercontent.com/92575053/154833695-aae246b9-07d2-48cd-b88a-af07bde25871.png)
+ps. and returns a html-file
+## http://olehh3103.pythonanywhere.com/
+* ![image](https://user-images.githubusercontent.com/92575053/154833788-e3a0caaf-8f8a-44ee-935b-f49c2aac5862.png)
+* ![image](https://user-images.githubusercontent.com/92575053/154833807-04fbe27b-cf08-4d69-b5cd-7169593c6a9f.png)
 
 # hidden.py is not here.
 # pls, use ur hidden.py with API keys
